@@ -1,7 +1,7 @@
 # LibManagement
 This is C# project of University RUPP Year 3
 
-CREATE A NEW SQL DATABASE AND RUN CREATE A TABLE "Users" AND RUN This SQL CODE
+CREATE A NEW SQL DATABASE AND RUN CREATE A TABLE "Users" AND RUN This SQL CODE:
 
 
 CREATE TABLE [dbo].[Users] (
