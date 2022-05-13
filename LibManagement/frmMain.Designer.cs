@@ -35,6 +35,7 @@ namespace LibManagement
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.addBookUC1 = new LibManagement.addBookUC();
             this.SuspendLayout();
             // 
             // button1
@@ -91,11 +92,19 @@ namespace LibManagement
             this.button6.Text = "Log out";
             this.button6.UseVisualStyleBackColor = true;
             // 
+            // addBookUC1
+            // 
+            this.addBookUC1.Location = new System.Drawing.Point(177, 12);
+            this.addBookUC1.Name = "addBookUC1";
+            this.addBookUC1.Size = new System.Drawing.Size(641, 517);
+            this.addBookUC1.TabIndex = 6;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1118, 648);
+            this.ClientSize = new System.Drawing.Size(851, 541);
+            this.Controls.Add(this.addBookUC1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -105,7 +114,6 @@ namespace LibManagement
             this.MinimizeBox = false;
             this.Name = "frmMain";
             this.Text = "Librarian Selection";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
@@ -118,5 +126,6 @@ namespace LibManagement
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private addBookUC addBookUC1;
     }
 }
